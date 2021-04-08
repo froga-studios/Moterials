@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "moterials",
+  "version": "${version}",
+  "name": "Moterials",
+  "description": "Adds more materials after netherite",
+  "authors": [
+    "FrogaStudios"
+  ],
+  "contact": {
+    "repo": "https://github.com/froga-studios/moterials"
+  },
+  "license": "MIT",
+  "icon": "assets/moterials/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "io.github.frogastudios.moterials.client.MoterialsClient"
+    ],
+    "main": [
+      "io.github.frogastudios.moterials.Moterials"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
